@@ -1,0 +1,5 @@
+--require ./test/unit/setup
+--recursive ./test/unit
+--colors
+--timeout 600000
+--slow 200

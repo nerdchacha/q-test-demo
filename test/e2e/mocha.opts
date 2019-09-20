@@ -1,0 +1,6 @@
+--require ./test/e2e/setup
+--globals global
+--recursive ./test/e2e
+--colors
+--timeout 600000
+--slow 200

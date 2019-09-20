@@ -1,0 +1,16 @@
+{
+  "include": [
+    "app/**/*.js"
+  ],
+  "reporter": [
+    "text",
+    "html",
+    "lcov",
+    "cobertura"
+  ],
+  "exclude": [
+    "**/node_modules/**",
+    "**/test/**"
+  ],
+  "report-dir": "unit-test-coverage"
+}
